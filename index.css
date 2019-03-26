@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.notice {
+  height: 50px;
+  background: rgb(86, 29, 218);
+  color: white;
+  font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.learn-more {
+  margin-left: 30px;
+  color: turquoise;
+}
+
+.navbar {
+  margin: 15px;
+}
+
+.background-img {
+  background-color: rgb(220, 234, 255);
+  margin-top: -15px;
+  padding-top: 0;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+}
+
+.logo {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 70px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.subscribe-oval {
+  background: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 80px;
+  height: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.linked-in {
+  margin-right: 50px;
+}
+
+.link {
+  font-size: 10px;
+}
+
+.header {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sub-header {
+  margin: 10px 50vh;
+  text-align: center;
+}
+
+.exploring-parent {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.red-button {
+  width: 140px;
+  height: 50px;
+  background: red;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.start-exploring {
+  color: white;
+  font-size: 12px;
+  margin: auto;
+}
+
+.scroll {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.books {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+}
+
+.design-better {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sub-design-better {
+  text-align: center;
+  margin: 40px 40vh;
+  font-size: 14px;
+}
+
+.book1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+  margin-bottom: 150px;
+}
+
+.book1-color {
+  color: rgb(26, 134, 116);
+}
+
+.book1-div1 {
+  width: 37%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+  align-items: flex-end;
+}
+
+.book1-div2 {
+  width: 37%;
+  text-align: left;
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+}
+
+.book1-summary {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.author1-line {
+  width: 25px;
+  float: left;
+  margin: 10px;
+}
+
+.author1 {
+  color: gray;
+}
+
+.book-img {
+  width: 100%;
+}
+
+.read-book1-button {
+  background: rgb(26, 134, 116);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.book2 {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+  align-items: stretch;
+  margin-bottom: 150px;
+}
+
+.book2-color {
+  color: pink;
+}
+
+.book2-div1 {
+  width: 37%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.book2-div2 {
+  width: 37%;
+  text-align: left;
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+}
+
+.book-summary {
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+  align-content: stretch;
+}
+
+.author-line {
+  width: 25px;
+  float: left;
+  margin: 10px;
+}
+
+.author {
+  color: gray;
+}
+
+.read-book-parent {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.read-book2-button {
+  background: rgb(255, 89, 116);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.read-book {
+  font-size: 13px;
+  color: white;
+}
+
+
+.book4-color {
+  color: rgb(77, 0, 112);
+}    
+  
+.read-book4-button {
+  background: rgb(77, 0, 112);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.book5-color {
+  color: rgb(209, 43, 31);
+}    
+  
+.read-book5-button {
+  background: rgb(209, 43, 31);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.book6-color {
+  color: blue;
+}    
+  
+.read-book6-button {
+  background: blue;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.about-authors-header {
+  text-align: center;
+}
+
+.about-authors {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.about-1-author {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+  align-content: space-around;
+  margin-bottom: 30px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.author-img {
+  margin-right: 15px;
+  width: 60px;
+}
+
+.author-name-title {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: left;
+  align-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.about-author-name {
+  margin: 0;
+}
+
+.about-author-title {
+  margin: 0;
+  color: gray;
+  font-size: 11px;
+}
+
+.about-author-summary {
+  width: 40%;
+}
